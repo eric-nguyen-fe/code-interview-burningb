@@ -1,0 +1,28 @@
+/* stylelint-disable scss/dollar-variable-pattern */
+// Text Colors
+$white: rgb(255, 255, 255); // #ffffff
+$black: rgb(0, 0, 0);//#00000
+$gray-border: #dbdbdb;
+
+/* ---------------------------------------- */
+
+
+$white-03: rgba($white, 0.3);
+$white-01: rgba($white, 0.1);
+$white-08: rgba($white, 0.8);
+$black-01: rgba($black, 0.1);
+$black-02: rgba($black, 0.2);
+$black-03: rgba($black, 0.3);
+$black-05: rgba($black, 0.5);
+$black-12: rgba($black, 0.12);
+$black-08: rgba($black, 0.8);
+$black-025: rgba($black, 0.25);
+$black-085: rgba($black, 0.85);
+
+$main-gradient: linear-gradient(90deg, #005991   0%, #04566e 100%,);
+$main-gradient1: linear-gradient(120deg, #18a5a7   0%, #bfffc7 100%,);
+$main-gradient2: linear-gradient(15deg, #112d60   0%, #b6c0c5 100%,);
+$main-gradient3: linear-gradient(90deg, #05999e   0%, #cbe7e3 100%,);
+$teal-gradient-2: linear-gradient(180deg, #00a8a8 0%, #02747f 100%);
+$gradient-copper: linear-gradient(90deg, #d6bc76 0%, #bf9743 27.08%, #ece58e 51.32%, #d6bc76 67.71%, #b3833a 81.77%, #d7bc76 93.75%);
+$gradient-dark-green: linear-gradient(91.23deg, #002a2f -1.85%, #00383f 27.87%, #336553 82.21%, rgba(53, 142, 110, 0.8) 103.52%);

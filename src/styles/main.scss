@@ -1,0 +1,69 @@
+/* stylelint-disable scss/selector-no-redundant-nesting-selector */
+/* stylelint-disable selector-max-id */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;700;900&family=Noto+Sans:wght@100;200;400;500;600;700&display=swap');
+
+html,
+body {
+    font-family: 'Poppins',sans-serif !important;
+    font-size: 16px;
+    overflow-x: hidden;
+    line-height: 24px;
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent; //issue click in mobile flash background highligh
+}
+
+button {
+    &:focus {
+        outline: none;
+    }
+}
+
+p {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+[role='button'],
+button {
+    cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+input {
+    word-break: normal;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+.hidden-animation {
+    visibility: hidden;
+}
+
+.overflow-hidden {
+    height: 100vh;
+}
